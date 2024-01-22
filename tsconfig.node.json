@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "@tsconfig/node20/tsconfig.json",
+        "@vue/tsconfig/tsconfig.json"
+    ],
+    "include": [
+        "node.d.ts",
+        "vite.config.*",
+        "eslint.config.*"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true,
+        "allowJs": true,
+        "types": [
+            "node"
+        ]
+    }
+}
